@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+                .sriracha-regular {
+                    font-family: "Sriracha", cursive;
+                    font-weight: 400;
+                    font-style: normal;
+                    }
+                    /*imagens*/
+                    section#img01{
+                      background-image: url('imagens/background001.jpg');                      background-position: right center;
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                    }
+                    section#img02{
+                      background-size: cover;
+                      background-image: url('imagens/background002.jpg');
+                    }
+
+                .passion-one-regular {
+                   font-family: "Passion One", sans-serif;
+                   font-weight: 400;
+                   font-style: normal;
+                   }
+
+                *{
+                  margin: 0px;
+                  padding: 0px;
+                }
+                  section.normal{                             
+                    font-size: 3vw;
+                    padding-bottom: 50px;
+                    padding-left: 40px;
+                    background-color: #fff;
+                    color: black;
+                    display: block;
+                    margin: 0px;
+
+
+                  }
+                  section.imagem > p {
+                    text-shadow: 1px 1px 0px black;
+                    display:inline-block;
+                    line-height: 2em;
+                    font-size: 3vw;
+                    padding: 5px;
+                    /*width: 250px;*/
+                    background-color:rgba(0, 0, 0, 0.253);
+                  }
+                  section.imagem{
+                    background-attachment: fixed;
+                    box-shadow: inset 6px 6px 20px 2px black;
+                    font-size: 2em;
+                    padding-bottom: 50px;
+                    padding-left: 40px;
+                    text-shadow:5 5 3 black ;
+                    color: white;
+                    background-color: rgb(29, 29, 29);
+
+                  }
+
+                  :root {
+                    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+                    --fonte2: 'Passion One', cursive;
+                    --fonte3: 'Sriracha', cursive;
+                }
+                  section{
+                    line-height: 2em ;
+                    font-weight: 200;
+                    font-family:"Sriracha" /*var(--fonte2)*/;
+                    display: block;
+                    margin: 0px;
+                    padding-top: 10vh;
+                    font-size: 5vw /*25.5px*/;
+                    
+                         }
+                  body {
+                     display: block;
+                     margin: 0px;
+                    }
+                  header > h1{
+                    text-align: center;
+                    font-family: "Passion One" /*var(--fonte1)*/;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-variant: small-caps;
+                  }
+                  h2{            
+                    font-size: 15px;      
+                    font-family: var(--fonte1);
+                    padding-bottom: 40px;
+                    font-weight: 300;
+                  }
+                  a:hover{
+                    text-decoration: underline;
+                  }
+                  a{
+                    color: white;
+                    text-decoration: none;
+                    padding-left: 10px;
+                    font-weight: 900;
+                  }
+                  header{
+                     font-size: 5vw;
+                     font-family: "Passion One" /*var(--fonte1)*/;
+                     padding-top: 50.1px;
+                     background-color: black;
+                     color: white;
+                     text-align: center;
+                     width:100% ;
+                     padding-bottom: 15px;
+                  }  
+                 footer{
+                     font-family: var(--fonte1);
+                     padding-top: 10px;
+                     background-color: black;
+                     color: white;
+                     text-align: center;
+                     width: 100%;
+                 }
+                 html, body{
+                    min-height: 100vh;
+                    background-color: darkgrey;
+                 }
